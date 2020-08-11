@@ -20,12 +20,6 @@ class Eduction extends React.Component {
       </div>
     );
   }
-  Eduction.propTypes{
-      info: propTypes.object.isRequired,
-      info.summary: propTypes.string.isRequired,
-      info.para: propTypes.string.isRequired,
-      indo.year: propTypes.string.isRequired
-  }
 }
 
 export default Eduction;

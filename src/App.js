@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
-import './App.scss';
-import Avatar from './component/Avatar';
-import Description from './component/Description';
-import Eductions from './component/Eductions';
-
+import React, { Component } from "react";
+import "./App.scss";
+import Avatar from "./component/Avatar";
+import Description from "./component/Description";
+import Eductions from "./component/Eductions";
 
 class App extends Component {
   render() {
