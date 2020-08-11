@@ -1,0 +1,12 @@
+.description {
+    margin: 10px;
+}
+.description h1{
+    margin: 20px;
+    color:  #ec7263;
+}
+
+.description p {
+    padding: 0;
+    margin: 20px;
+}

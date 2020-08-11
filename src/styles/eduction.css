@@ -1,0 +1,24 @@
+.eduction{
+    padding: 0;
+    display: flex;
+}
+
+.eduction .eductionYear{
+    height: 50px;
+    width: 100px;
+}
+
+.eduction .eductionDetail{
+    background-color: #ededed;
+    flex: 1;
+}
+
+.eduction h3,p{
+    color: black;
+    padding: 5px;
+}
+
+.eduction div{
+    margin: 10px;
+    padding: 10px;
+}
