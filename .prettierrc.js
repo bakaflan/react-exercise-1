@@ -1,3 +1,3 @@
-{
-    "endOfLine": "auto"
-}
+module.exports = {
+    singleQuote: true,
+};
