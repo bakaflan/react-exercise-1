@@ -42,8 +42,8 @@ class Eductions extends React.Component {
     return (
       <div className="eductions">
         <h1>Eduction</h1>
-        {this.state.eductions.map((eduction) => (
-          <Eduction id={eduction.id} key={eduction.id} info={eduction} />
+        {this.state.eductions.map((eduction,index) => (
+          <Eduction key = {index} info={eduction} />
         ))}
       </div>
     );

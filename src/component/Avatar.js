@@ -1,14 +1,13 @@
 import React from 'react';
-import avatarURL from '../assets/avatar.jpg'
+import avatarImgURL from '../assets/avatar.jpg'
 import '../styles/avatar.css'
 
 
 class Avatar extends React.Component {
-    
     render() {
         return (
         <div className = 'avatar'>
-            <img className = 'image-size' src = {avatarURL}></img>
+            <img className = 'image-size' src = {avatarImgURL}></img>
             <h1>
                 HELLO,
             </h1>

@@ -1,20 +1,18 @@
 import React from "react";
 import "../styles/eduction.css";
+import PropTypes from 'prop-types';
 
 class Eduction extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
+    const {info} = this.props;
     return (
       <div className="eduction">
         <div className="eductionYear">
-          <h2>{this.props.info.year}</h2>
+          <h2>{info.year}</h2>
         </div>
         <div className="eductionDetail">
-          <h3>{this.props.info.summary}</h3>
-          <p>{this.props.info.para}</p>
+          <h3>{info.summary}</h3>
+          <p>{info.para}</p>
         </div>
       </div>
     );
@@ -22,3 +20,7 @@ class Eduction extends React.Component {
 }
 
 export default Eduction;
+
+Eduction.propTypes = {
+  eductionInfo: PropTypes.object,
+};
