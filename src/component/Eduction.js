@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/eduction.css";
-import { info } from "node-sass";
 
 class Eduction extends React.Component {
   constructor(props) {
